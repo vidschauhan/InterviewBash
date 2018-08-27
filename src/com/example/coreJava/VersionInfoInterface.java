@@ -5,7 +5,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public interface VersionInfoInterface {
-	//static final Logger LOGGER = LoggerFactory.getLogger(ISPVersionScheduler.class);
 	String VERSION = getVersion();
 	String IMP_TITLE = getImpTitle();
 
